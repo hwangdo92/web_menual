@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+
+body, ul, li{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+a{
+  color:inherit;
+  text-decoration:none;
+  display:block;
+
+  padding:10px;
+}
+
+.menubox-1  ul{
+  background-color:#dfdfdf;
+}
+.menubox-1 > ul{
+  background-color:#dfdfdf;
+  display:inline-block;
+}
+.menubox-1 > ul > li{
+  display:inline-block;
+
+}
+.menubox-1{
+  text-align:center;
+}
+.menubox-1  ul > li:hover > a{
+  background-color:black;
+  color:white;
+}
+.menubox-1 > ul  ul{
+  display:none;
+}
+.menubox-1 > ul > li:hover > ul{
+  display:block;
+  position:absolute;
+}
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <nav class="menubox-1">
+  <ul>
+    <li>
+      <a href="#">공무원</a>
+      <ul>
+        <li><a href="#">동영상</a></li>
+        <li><a href="#">모바일</a></li>
+        <li><a href="#">사이트</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">임용</a>
+      <ul>
+        <li><a href="#">동영상</a></li>
+        <li><a href="#">모바일</a></li>
+        <li><a href="#">사이트</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">평생교육</a>
+      <ul>
+        <li><a href="#">동영상</a></li>
+        <li><a href="#">모바일</a></li>
+        <li><a href="#">사이트</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">직무교육</a>
+      <ul>
+        <li><a href="#">동영상</a></li>
+        <li><a href="#">모바일</a></li>
+        <li><a href="#">사이트</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </body>
+</html>
